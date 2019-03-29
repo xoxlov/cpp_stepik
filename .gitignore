@@ -29,3 +29,4 @@
 
 #JetBrains project directory
 .idea
+cmake-build*
