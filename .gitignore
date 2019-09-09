@@ -38,3 +38,5 @@ CMakeCache.txt
 
 # Visual Studio Code project directory
 .vscode
+.vs
+Debug
