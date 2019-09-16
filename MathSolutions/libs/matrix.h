@@ -1,3 +1,4 @@
+//http://www.cyberforum.ru/cpp-beginners/thread571966.html
 #pragma once
 
 template <class MatrixType>

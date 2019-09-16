@@ -1,5 +1,5 @@
-//http://www.cyberforum.ru/cpp-beginners/thread571966.html
 #include "libs/matrix.h"
+#include "libs/gauss.h"
 
 void SolveSystemOfLinearEquationsByGaussMethod()
 {
@@ -14,7 +14,9 @@ void SolveSystemOfLinearEquationsByGaussMethod()
 
 int main()
 {
-    SolveSystemOfLinearEquationsByGaussMethod();
+    //SolveSystemOfLinearEquationsByGaussMethod();
+    SolveEquationsWithGaussMethod();
 
+    system("pause");
     return 0;
 }
