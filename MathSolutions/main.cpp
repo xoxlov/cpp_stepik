@@ -3,7 +3,7 @@
 
 void SolveSystemOfLinearEquationsByGaussMethod()
 {
-    // решение системы линейных уравнений методом Гаусса
+    // СЂРµС€РµРЅРёРµ СЃРёСЃС‚РµРјС‹ Р»РёРЅРµР№РЅС‹С… СѓСЂР°РІРЅРµРЅРёР№ РјРµС‚РѕРґРѕРј Р“Р°СѓСЃСЃР°
     Matrix<double> matrix;
     matrix.CreateNewMatrix();
     matrix.InputMatrixData();
