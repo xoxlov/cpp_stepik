@@ -1,5 +1,6 @@
 #include "libs/matrix.h"
 #include "libs/gauss.h"
+#include "libs/gauss2.h"
 
 void SolveSystemOfLinearEquationsByGaussMethod()
 {
@@ -15,7 +16,10 @@ void SolveSystemOfLinearEquationsByGaussMethod()
 int main()
 {
     //SolveSystemOfLinearEquationsByGaussMethod();
-    SolveEquationsWithGaussMethod();
+    // from libs/gauss.h:
+    //SolveEquationsWithGaussMethod();
+    // from libs/gauss2.h:
+    SolveEquationsWithGaussMethod2();
 
     system("pause");
     return 0;

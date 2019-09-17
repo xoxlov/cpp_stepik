@@ -13,12 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Related Docs">
+      <UniqueIdentifier>{bde5a552-132e-4cb2-b897-a3b6d88db71f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="libs\gauss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\gauss2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +35,16 @@
     <ClInclude Include="libs\gauss.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="libs\gauss2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="libs\matrix.tpp">
       <Filter>Source Files</Filter>
+    </None>
+    <None Include="docs\Решение систем линейных уравнений методом Гаусса.pdf">
+      <Filter>Related Docs</Filter>
     </None>
   </ItemGroup>
 </Project>

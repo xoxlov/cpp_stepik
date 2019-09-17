@@ -116,13 +116,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="libs\gauss.cpp" />
+    <ClCompile Include="libs\gauss2.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libs\gauss.h" />
+    <ClInclude Include="libs\gauss2.h" />
     <ClInclude Include="libs\matrix.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="docs\Решение систем линейных уравнений методом Гаусса.pdf" />
     <None Include="libs\matrix.tpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
