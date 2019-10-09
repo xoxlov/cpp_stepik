@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathSolutions", "MathSolutions\MathSolutions.vcxproj", "{AE718453-4C33-4862-A2D1-9E083C7B7918}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberSequences", "NumberSequences\Fibonacci.vcxproj", "{39178B1A-0516-4FD3-8DED-54167D19AA9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BigInt", "BigInt\BigInt.vcxproj", "{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{AE718453-4C33-4862-A2D1-9E083C7B7918}.Release|x64.Build.0 = Release|x64
 		{AE718453-4C33-4862-A2D1-9E083C7B7918}.Release|x86.ActiveCfg = Release|Win32
 		{AE718453-4C33-4862-A2D1-9E083C7B7918}.Release|x86.Build.0 = Release|Win32
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Debug|x64.ActiveCfg = Debug|x64
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Debug|x64.Build.0 = Debug|x64
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Debug|x86.ActiveCfg = Debug|Win32
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Debug|x86.Build.0 = Debug|Win32
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Release|x64.ActiveCfg = Release|x64
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Release|x64.Build.0 = Release|x64
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Release|x86.ActiveCfg = Release|Win32
+		{39178B1A-0516-4FD3-8DED-54167D19AA9D}.Release|x86.Build.0 = Release|Win32
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Debug|x64.ActiveCfg = Debug|x64
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Debug|x64.Build.0 = Debug|x64
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Debug|x86.Build.0 = Debug|Win32
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Release|x64.ActiveCfg = Release|x64
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Release|x64.Build.0 = Release|x64
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Release|x86.ActiveCfg = Release|Win32
+		{7B95CE70-52B7-45D1-B6EC-B4F7B76662E2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

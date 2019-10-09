@@ -167,3 +167,14 @@ void Matrix<Type>::PrintSolution()
     }
     cout << endl;
 }
+
+void SolveSystemOfLinearEquationsByGaussMethod()
+{
+    // решение системы линейных уравнений методом Гаусса
+    Matrix<double> matrix;
+    matrix.CreateNewMatrix();
+    matrix.InputMatrixData();
+    matrix.Print();
+    matrix.SolveByGauss();
+    matrix.PrintSolution();
+}

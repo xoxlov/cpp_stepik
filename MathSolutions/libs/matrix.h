@@ -32,3 +32,5 @@ public:
 };
 
 #include "matrix.tpp"
+
+void SolveSystemOfLinearEquationsByGaussMethod();
